@@ -15,6 +15,7 @@ Graph criargrafo(int vert)
     v->arcos = 0;
     v->vertices = vert;
     return v;
+
 }
 
 void inserir_grafo(Graph v, int comeco, int final)

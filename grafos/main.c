@@ -25,15 +25,6 @@ int main()
     
     imprime_graus_l(quant_graus, v_l->V);
 
-
-
-
-
-
-
-
-
-
     libera_grafo_l(v_l);
 
 };

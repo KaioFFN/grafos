@@ -12,6 +12,7 @@ Graph_l criagrafol(int vert)
 	lst->V = vert;
 
 	return lst;
+
 }
 
 void libera_grafo_l(Graph_l lst)

@@ -27,7 +27,9 @@ struct graph_l {
 	Lista* lista;
 };
 
+
 typedef struct graph_l* Graph_l;
+
 
 Graph_l criagrafol(int vert);
 void libera_grafo_l(Graph_l lst);
