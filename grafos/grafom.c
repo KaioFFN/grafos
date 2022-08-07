@@ -11,13 +11,10 @@ Graph criargrafo(int vert)
     {
         v->adj[i] = (int*)calloc(vert, sizeof(int));
     }
-
     v->arcos = 0;
     v->vertices = vert;
     return v;
-
 }
-
 void inserir_grafo(Graph v, int comeco, int final)
 {
     v->adj[comeco][final] = 1;

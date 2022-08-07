@@ -22,9 +22,7 @@ int main()
     inserir_grafo_l(v_l, 2, 3);
     imprime_grafo_l(v_l);
     quant_graus = calc_graus_l(v_l);
-    
     imprime_graus_l(quant_graus, v_l->V);
-
     libera_grafo_l(v_l);
 
 };
